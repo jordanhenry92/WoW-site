@@ -12,7 +12,7 @@ nav {
     background: rgb(134, 126, 126, 0.8);
     display: grid;
     margin: 0px 300px 0px 300px;
-    padding-bottom: 0%;
+    padding-bottom: 1em;
     border-radius: 15px;
     position: sticky;
 
@@ -115,11 +115,12 @@ ul li a:hover {
 .container p {
     background-color: rgb(134, 126, 126, 0.8);
     width: auto;
+    margin: 0;
     padding: 1em;
     border-radius: 15px;
     grid-row-start: 1;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-family: 'Montserrat';
     color: aliceblue;
 }
@@ -139,6 +140,7 @@ ul li a:hover {
 
 .container h1 {
     text-align: center;
+    margin-top: 150px;
     font-size: 3em;
     font-family: "Montserrat";
     text-transform: uppercase;
@@ -147,6 +149,7 @@ ul li a:hover {
 
 .container h2 {
     text-align: center;
+    margin-top: 150px;
     font-size: 2em;
     font-family: "Montserrat";
     text-transform: uppercase;
@@ -154,6 +157,7 @@ ul li a:hover {
 }
 
 .container h3 {
+    margin-top: 150px;
     font-family: "Montserrat";
     font-size: 1.5em;
     text-align: center;
@@ -161,6 +165,7 @@ ul li a:hover {
 
 .container h4 {
     background: rgb(134, 126, 126, 0.8);
+    font-size: 2em;
     font-family: "Montserrat";
     color: aliceblue;
     outline: black;
@@ -168,9 +173,22 @@ ul li a:hover {
     padding: 1em;
 }
 
+#contact p {
+    background-color: rgb(134, 126, 126, 0.8);
+    width: auto;
+    margin-bottom: 100px;
+    padding: 1em;
+    border-radius: 15px;
+    grid-row-start: 1;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+    color: aliceblue;
+}
+
 img {
     display: block;
-    height: 200px;
+    height: 300px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -201,4 +219,14 @@ img {
     margin-right: auto;
     margin-bottom: 50px;
     border: 3px solid #fff;
+}
+
+@media  screen and (max-width: 1920px) {
+    
+    .sticky {
+        position: fixed;
+        top: 8;
+        width: 67.58%;
+    }
+
 }
