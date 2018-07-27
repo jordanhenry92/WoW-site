@@ -14,8 +14,17 @@ nav {
     margin: 0px 300px 0px 300px;
     padding-bottom: 0%;
     border-radius: 15px;
+    position: sticky;
 
 }
+
+.sticky {
+    position: fixed;
+    top: 8;
+    width: 54.1%;
+}
+
+
 
 ul {
     display: inline-block;
@@ -36,6 +45,7 @@ li a {
     text-decoration: none;
     color: #fff;
     display: block;
+    border-radius: 15px;
     transition: .4s;
     font-size: 1.2em;
     padding: 1em;
@@ -53,6 +63,7 @@ ul li a:hover {
     outline: none;
     color: white;
     padding: 14px 16px;
+    border-radius: 15px;
     transition: .4s;
     background-color: inherit;
     font-family: 'Montserrat'; /* Important for vertical align on mobile phones */
@@ -68,6 +79,8 @@ ul li a:hover {
     position: absolute;
     background-color: rgb(134, 126, 126, 0.8);
     min-width: 136px;
+    transition: .2s;
+    border-radius: 15px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -90,3 +103,57 @@ ul li a:hover {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+.container {
+    
+    grid-template-rows: auto 200px;
+    border: 2px #fff;
+    margin: 100px 350px auto;
+}
+
+.container p {
+    background-color: rgb(134, 126, 126, 0.8);
+    width: auto;
+    padding: 1em;
+    border-radius: 15px;
+    grid-row-start: 1;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Montserrat';
+    color: aliceblue;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container h4 {
+    background: rgb(134, 126, 126, 0.8);
+    font-family: "Montserrat";
+    color: aliceblue;
+    outline: black;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+img {
+    display: block;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#cebaby {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    border: 3px solid #fff;
+}
